@@ -1,4 +1,4 @@
-module microservice-warehouse
+module microservice-warehouse/user-service
 
 go 1.25.1
 
