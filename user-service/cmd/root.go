@@ -33,7 +33,7 @@ func initConfig() {
 	if configFile != "" {
 		viper.SetConfigFile(configFile)
 	} else {
-		viper.SetConfigFile(".env")
+		viper.SetConfigFile(`.env`)
 	}
 
 	viper.AutomaticEnv()
